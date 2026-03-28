@@ -8,4 +8,4 @@ I am an assistant professor of philosophy at [Indiana University Bloomington](ht
 
 {% include_relative _includes/publications.md %}
 
-# {% include_relative _includes/services.md %}
+#{% include_relative _includes/services.md %}
