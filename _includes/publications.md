@@ -1,46 +1,51 @@
 <h2 id="publications" style="margin: 2px 0px 10px;">Publications</h2>
 
 <div class="publications">
+
+<!-- BOOKS -->
+<h3>Books</h3>
 <ol class="bibliography">
-
 {% for link in site.data.publications.main %}
-
+{% if link.type == "book" %}
 <li style="margin-bottom: 1.2em;">
-
-  <div class="title">
-    {% if link.pdf %}
-      <a href="{{ link.pdf }}"><strong>{{ link.title }}</strong></a>
-    {% else %}
-      <strong>{{ link.title }}</strong>
-    {% endif %}
-  </div>
-
-  <div class="author">
-    {{ link.authors }}
-  </div>
-
-  <div class="periodical">
-    <em>{{ link.conference }}</em>
-  </div>
-
-  <div class="links" style="font-size: 0.9em;">
-    {% if link.pdf %} 
-      <a href="{{ link.pdf }}" target="_blank">PDF</a>
-    {% endif %}
-    {% if link.code %} 
-      | <a href="{{ link.code }}" target="_blank">Code</a>
-    {% endif %}
-    {% if link.page %} 
-      | <a href="{{ link.page }}" target="_blank">Page</a>
-    {% endif %}
-    {% if link.bibtex %} 
-      | <a href="{{ link.bibtex }}" target="_blank">Bib</a>
-    {% endif %}
-  </div>
-
+  <strong>{{ link.title }}</strong><br>
+  {{ link.authors }}<br>
+  <em>{{ link.conference }}</em>
 </li>
-
+{% endif %}
 {% endfor %}
-
 </ol>
+
+<!-- ARTICLES -->
+<h3>Articles</h3>
+<ol class="bibliography">
+{% for link in site.data.publications.main %}
+{% if link.type == "article" %}
+<li style="margin-bottom: 1.2em;">
+  {% if link.pdf %}
+    <a href="{{ link.pdf }}"><strong>{{ link.title }}</strong></a>
+  {% else %}
+    <strong>{{ link.title }}</strong>
+  {% endif %}<br>
+  {{ link.authors }}<br>
+  <em>{{ link.conference }}</em>
+</li>
+{% endif %}
+{% endfor %}
+</ol>
+
+<!-- REVIEWS -->
+<h3>Reviews</h3>
+<ol class="bibliography">
+{% for link in site.data.publications.main %}
+{% if link.type == "review" %}
+<li style="margin-bottom: 1.2em;">
+  <strong>{{ link.title }}</strong><br>
+  {{ link.authors }}<br>
+  <em>{{ link.conference }}</em>
+</li>
+{% endif %}
+{% endfor %}
+</ol>
+
 </div>
