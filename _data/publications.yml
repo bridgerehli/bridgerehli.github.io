@@ -69,13 +69,13 @@ main:
     type: "article"
 
   # REVIEWS
-  - title: "Hume and Contemporary Epistemology (review)"
+  - title: "Hume and Contemporary Epistemology"
     authors: "Bridger Ehli"
     conference: "Notre Dame Philosophical Reviews"
     year: "2025"
     type: "review"
 
-  - title: "Hume on the Self and Personal Identity (review)"
+  - title: "Hume on the Self and Personal Identity"
     authors: ""
     conference: "Hume Studies"
     year: "2024"
