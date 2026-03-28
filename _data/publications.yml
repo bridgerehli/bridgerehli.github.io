@@ -1,12 +1,16 @@
 main:
 
-  - title: Body, Coherence, and Hume's Galley
-    authors: 
-    conference_short: 
-    conference: Journal of the History of Philosophy
-    pdf: https://arxiv.org/pdf/2306.00988.pdf
-    code: 
-    bibtex: 
-    image: 
-    notes: 
+- title: "Book Title"
+  authors: "Your Name"
+  conference: "Publisher, Year"
+  type: "book"
 
+- title: "Article Title"
+  authors: "Your Name"
+  conference: "Journal, Year"
+  type: "article"
+
+- title: "Review Title"
+  authors: "Your Name"
+  conference: "Journal, Year"
+  type: "review"
