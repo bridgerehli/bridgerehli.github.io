@@ -4,26 +4,26 @@
 
 <!-- BOOKS -->
 <h3>Books</h3>
-<ol class="bibliography">
+<div class="bibliography">
 {% for link in site.data.publications.main %}
 {% if link.type == "book" %}
-<li style="margin-bottom: 1.2em;">
+<div style="margin-bottom: 1.2em;">
   <strong>{{ link.title }}</strong><br>
  {% if link.authors and link.authors != "" %}
 {{ link.authors }}<br>
 {% endif %}
   <em>{{ link.conference }}</em>
-</li>
+</div>
 {% endif %}
 {% endfor %}
-</ol>
+</div>
 
 <!-- ARTICLES -->
 <h3>Articles</h3>
-<ol ="bibliography">
+<div class="bibliography">
 {% for link in site.data.publications.main %}
 {% if link.type == "article" %}
-<li style="margin-bottom: 1.2em;">
+<div style="margin-bottom: 1.2em;">
   {% if link.pdf %}
     <a href="{{ link.pdf }}"><strong>{{ link.title }}</strong></a>
   {% else %}
@@ -33,25 +33,25 @@
 {{ link.authors }}<br>
 {% endif %}
   <em>{{ link.conference }}</em>
-</li>
+</div>
 {% endif %}
 {% endfor %}
-</ol>
+</div>
 
 <!-- REVIEWS -->
 <h3>Reviews</h3>
-<ol class="bibliography">
+<div class="bibliography">
 {% for link in site.data.publications.main %}
 {% if link.type == "review" %}
-<li style="margin-bottom: 1.2em;">
+<div style="margin-bottom: 1.2em;">
   <strong>{{ link.title }}</strong><br>
 {% if link.authors and link.authors != "" %}
 {{ link.authors }}<br>
 {% endif %}
   <em>{{ link.conference }}</em>
-</li>
+</div>
 {% endif %}
 {% endfor %}
-</ol>
+</div>
 
 </div>
