@@ -1,7 +1,7 @@
 main:
 
   # BOOKS
-   - title: "Sense and Skepticism in Hume's *Treatise*"
+  - title: "Sense and Skepticism in Hume's *Treatise*"
     authors: ""
     conference: "Cambridge, forthcoming"
     type: "book"
