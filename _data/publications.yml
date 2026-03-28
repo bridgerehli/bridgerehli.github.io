@@ -1,8 +1,8 @@
 main:
 
-- title: "Book Title"
-  authors: "Your Name"
-  conference: "Publisher, Year"
+- title: "British Philosophy in the Long Eighteenth Century: Themes from Kenneth P. Winkler"
+  authors: 
+  conference: "Routledge, 2026"
   type: "book"
 
 - title: "Article Title"
