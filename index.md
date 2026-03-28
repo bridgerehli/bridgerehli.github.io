@@ -2,14 +2,9 @@
 layout: homepage
 ---
 
-## About Me
 
-I am a Ph.D. student at ...
+I am an assistant professor of philosophy at [Indiana University Bloomington](https://philosophy.indiana.edu/index.html).
 
-## Research Interests
-
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
 
 ## News
 
