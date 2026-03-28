@@ -9,7 +9,9 @@
 {% if link.type == "book" %}
 <li style="margin-bottom: 1.2em;">
   <strong>{{ link.title }}</strong><br>
-  {{ link.authors }}<br>
+ {% if link.authors and link.authors != "" %}
+{{ link.authors }}<br>
+{% endif %}
   <em>{{ link.conference }}</em>
 </li>
 {% endif %}
@@ -18,7 +20,7 @@
 
 <!-- ARTICLES -->
 <h3>Articles</h3>
-<ol class="bibliography">
+<ol ="bibliography">
 {% for link in site.data.publications.main %}
 {% if link.type == "article" %}
 <li style="margin-bottom: 1.2em;">
@@ -27,7 +29,9 @@
   {% else %}
     <strong>{{ link.title }}</strong>
   {% endif %}<br>
-  {{ link.authors }}<br>
+{% if link.authors and link.authors != "" %}
+{{ link.authors }}<br>
+{% endif %}
   <em>{{ link.conference }}</em>
 </li>
 {% endif %}
@@ -41,7 +45,9 @@
 {% if link.type == "review" %}
 <li style="margin-bottom: 1.2em;">
   <strong>{{ link.title }}</strong><br>
-  {{ link.authors }}<br>
+{% if link.authors and link.authors != "" %}
+{{ link.authors }}<br>
+{% endif %}
   <em>{{ link.conference }}</em>
 </li>
 {% endif %}
