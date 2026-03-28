@@ -53,19 +53,19 @@
         <a href="{{ site.affiliation_link }}" rel="noopener"><autocolor>{{ site.affiliation }}</autocolor></a>
         <br>
         {% endif %}
-        {% if site.email %}
-        <email>{{ site.email }}</email>
-        {% endif %}
+       {% if site.email %}
+<email>
+  {{ site.email }} |
+  <a href="{{ site.cv_link }}">CV</a> |
+  <a href="https://philpeople.org/profiles/bridger-ehli" target="_blank">PhilPeople</a>
+</email>
+{% endif %}
+
+<br>
 
         <br>
         <br>
-        <div style="margin-top: 5px;">
-  <a href="{{ site.cv_link }}">CV</a> |
-  <a href="https://philpeople.org/profiles/bridger-ehli" target="_blank">PhilPeople</a>
-</div>
-        <div class="social-icons">
-        </div>
-        <br>
+        
 
       </header>
       <section>
