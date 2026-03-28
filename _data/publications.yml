@@ -5,6 +5,7 @@ main:
   # BOOKS
 
   - title: "Sense and Skepticism in Hume's _Treatise_"
+    authors: 
     conference: "Cambridge, forthcoming"
     type: "book"
     
@@ -15,48 +16,58 @@ main:
 
   # ARTICLES
   - title: "Humean Skepticism and the Metaphysics of Impressions (book symposium)"
+    authors: 
     conference: "Hume Studies, forthcoming"
     type: "article"
 
   - title: "Hume's _Distinctio Rationis_"
+    authors: 
     conference: "Oxford Studies in Early Modern Philosophy, forthcoming"
     type: "article"
 
   - title: "Body, Coherence, and Hume’s Galley"
+    authors: 
     conference: "Journal of the History of Philosophy, forthcoming"
     type: "article"
 
     - title: "Supposition and Realism in Hume"
+      authors: 
     conference: "British Philosophy in the Long Eighteenth Century: Themes from Kenneth P. Winkler, 2026"
     type: "article"
 
   - title: "Skepticism and the Idea of Body in Hume"
+    authors: 
     conference: "Journal of the History of Philosophy, 2025"
     type: "article"
 
   - title: "Hume on Modal Projection"
+    authors: 
     conference: "Mind, 2024"
     type: "article"
 
   - title: "Fiction and Content in Hume’s Labyrinth"
+    authors: 
     conference: "Philosophical Quarterly, 2024"
     type: "article"
 
   - title: "Locke, Simplicity, and Extension"
+    authors: 
     conference: "Archiv für Geschichte der Philosophie, 2023"
     type: "article"
 
-      - title: "Leibniz and the Molyneux Problem"
+ - title: "Leibniz and the Molyneux Problem"
+    authors: 
     conference: "Journal of Modern Philosophy, 2020"
     type: "article"
 
 
   # REVIEWS
   - title: "Hume and Contemporary Epistemology"
-
+    authors: 
     conference: "Notre Dame Philosophical Reviews, 2025"
     type: "review"
 
   - title: "Hume on the Self and Personal Identity"
+    authors: 
     conference: "Hume Studies, 2024"
     type: "review"
