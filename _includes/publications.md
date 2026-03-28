@@ -12,7 +12,7 @@
  {% if link.authors and link.authors != "" %}
 {{ link.authors }}<br>
 {% endif %}
-  <em>{{ link.conference }}</em>
+  {% if link.type == "article" %}   <em>{{ link.conference }}</em>{% if link.year %}, {{ link.year }}{% endif %} {% elsif link.type == "book" %}   {{ link.conference }}{% if link.year %}, {{ link.year }}{% endif %} {% else %}   <em>{{ link.conference }}</em>{% if link.year %}, {{ link.year }}{% endif %} {% endif %}
 </div>
 {% endif %}
 {% endfor %}
@@ -32,7 +32,7 @@
 {% if link.authors and link.authors != "" %}
 {{ link.authors }}<br>
 {% endif %}
-  <em>{{ link.conference }}</em>
+  {% if link.type == "article" %}   <em>{{ link.conference }}</em>{% if link.year %}, {{ link.year }}{% endif %} {% elsif link.type == "book" %}   {{ link.conference }}{% if link.year %}, {{ link.year }}{% endif %} {% else %}   <em>{{ link.conference }}</em>{% if link.year %}, {{ link.year }}{% endif %} {% endif %}
 </div>
 {% endif %}
 {% endfor %}
@@ -48,7 +48,7 @@
 {% if link.authors and link.authors != "" %}
 {{ link.authors }}<br>
 {% endif %}
-  <em>{{ link.conference }}</em>
+  {% if link.type == "article" %}   <em>{{ link.conference }}</em>{% if link.year %}, {{ link.year }}{% endif %} {% elsif link.type == "book" %}   {{ link.conference }}{% if link.year %}, {{ link.year }}{% endif %} {% else %}   <em>{{ link.conference }}</em>{% if link.year %}, {{ link.year }}{% endif %} {% endif %}
 </div>
 {% endif %}
 {% endfor %}
