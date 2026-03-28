@@ -1,7 +1,7 @@
 main:
 
   # BOOKS
-  - title: "Sense and Skepticism in Hume's _Treatise_"
+  - title: "Sense and Skepticism in Hume's <em>Treatise</em>"
     authors: ""
     conference: "Cambridge"
     year: "forthcoming"
@@ -20,7 +20,7 @@ main:
     year: "forthcoming"
     type: "article"
 
-  - title: "Hume's _Distinctio Rationis_"
+  - title: "Hume's <em>TreatiseDistinctio Rationis</em>"
     authors: ""
     conference: "Oxford Studies in Early Modern Philosophy"
     year: "forthcoming"
