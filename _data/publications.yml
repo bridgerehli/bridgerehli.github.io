@@ -15,22 +15,22 @@ main:
     link: "https://www.taylorfrancis.com/books/edit/10.4324/9781003564256/british-philosophy-long-eighteenth-century-bridger-ehli-matthew-leisinger"
 
   # ARTICLES (RECENT / FORTHCOMING)
-  - title: "Humean Skepticism and the Metaphysics of Impressions"
+  - title: "Body, Coherence, and Hume’s Galley"
     authors: ""
-    conference: "Hume Studies"
+    conference: "Journal of the History of Philosophy"
     year: "forthcoming"
     type: "article"
 
   - title: "Hume’s <em>Distinctio Rationis</em>"
     authors: ""
     conference: "Oxford Studies in Early Modern Philosophy"
-    year: "forthcoming"
+    year: "2026"
     type: "article"
 
-  - title: "Body, Coherence, and Hume’s Galley"
+  - title: "Humean Skepticism and the Metaphysics of Impressions"
     authors: ""
-    conference: "Journal of the History of Philosophy"
-    year: "forthcoming"
+    conference: "Hume Studies"
+    year: "2026"
     type: "article"
 
   - title: "Supposition and Realism in Hume"
