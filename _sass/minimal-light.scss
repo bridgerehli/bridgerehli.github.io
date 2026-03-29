@@ -602,3 +602,10 @@ footer {
 .bibliography em {
   font-weight: normal !important;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: white !important;
+    color: black !important;
+  }
+}
