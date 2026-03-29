@@ -57,6 +57,7 @@ main:
     conference: "Philosophical Quarterly"
     year: "2024"
     type: "article"
+    pdf: "EhliFiction.pdf"
 
   - title: "Locke, Simplicity, and Extension"
     authors: ""
@@ -70,6 +71,7 @@ main:
     conference: "Journal of Modern Philosophy"
     year: "2020"
     type: "article"
+    pdf: "EhliMolyneux.pdf"
 
   # REVIEWS
   - title: "Hume and Contemporary Epistemology"
@@ -83,3 +85,4 @@ main:
     conference: "Hume Studies"
     year: "2024"
     type: "review"
+    pdf: "EhliHumeontheSelfReview.pdf"
