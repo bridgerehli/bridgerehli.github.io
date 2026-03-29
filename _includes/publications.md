@@ -43,7 +43,13 @@
 {% for link in site.data.publications.main %}
 {% if link.type == "review" %}
 <div style="margin-bottom: 1.2em;">
-  <strong>{{ link.title }}</strong><br>
+  {% if link.link %}
+  <a href="{{ link.link }}"><strong>{{ link.title }}</strong></a>
+{% elsif link.pdf %}
+  <a href="{{ link.pdf }}"><strong>{{ link.title }}</strong></a>
+{% else %}
+  <strong>{{ link.title }}</strong>
+{% endif %}
 {% if link.authors and link.authors != "" %}
 {{ link.authors }}<br>
 {% endif %}
