@@ -12,6 +12,7 @@ main:
     conference: "Routledge"
     year: "2026"
     type: "book"
+    link: "https://www.taylorfrancis.com/books/edit/10.4324/9781003564256/british-philosophy-long-eighteenth-century-bridger-ehli-matthew-leisinger"
 
   # ARTICLES (RECENT / FORTHCOMING)
   - title: "Humean Skepticism and the Metaphysics of Impressions"
