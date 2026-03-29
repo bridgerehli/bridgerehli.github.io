@@ -44,11 +44,11 @@
 {% if link.type == "review" %}
 <div style="margin-bottom: 1.2em;">
   {% if link.link %}
-  <a href="{{ link.link }}"><strong>{{ link.title }}</strong></a>
+  <a href="{{ link.link }}"><strong>{{ link.title }}</strong></a><br>
 {% elsif link.pdf %}
-  <a href="{{ link.pdf }}"><strong>{{ link.title }}</strong></a>
+  <a href="{{ link.pdf }}"><strong>{{ link.title }}</strong></a><br>
 {% else %}
-  <strong>{{ link.title }}</strong>
+  <strong>{{ link.title }}</strong><br>
 {% endif %}
 {% if link.authors and link.authors != "" %}
 {{ link.authors }}<br>
