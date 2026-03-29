@@ -79,6 +79,7 @@ main:
     conference: "Notre Dame Philosophical Reviews"
     year: "2025"
     type: "review"
+    link: "https://ndpr.nd.edu/reviews/hume-and-contemporary-epistemology/"
 
   - title: "Hume on the Self and Personal Identity"
     authors: ""
