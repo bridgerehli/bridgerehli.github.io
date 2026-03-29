@@ -62,6 +62,14 @@
   <a href="{{ site.cv_link }}">CV</a> |
   <a href="https://philpeople.org/profiles/bridger-ehli" target="_blank">PhilPeople</a>
 </div>
+        
+{% if site.address_line1 %}
+<div style="margin-top: 4px; font-size: 0.95em;">
+  {{ site.address_line1 }}<br>
+  {{ site.address_line2 }}<br>
+  {{ site.address_line3 }}
+</div>
+{% endif %}       
 {% endif %}
 
 <br>
