@@ -49,6 +49,7 @@ main:
     conference: "Mind"
     year: "2024"
     type: "article"
+    pdf: "EhliProjection.pdf"
 
   - title: "Fiction and Content in Hume’s Labyrinth"
     authors: ""
@@ -61,7 +62,7 @@ main:
     conference: "Archiv für Geschichte der Philosophie"
     year: "2023"
     type: "article"
-    pdf: "files/EhliLocke.pdf"
+    pdf: "EhliLocke.pdf"
 
   - title: "Leibniz and the Molyneux Problem"
     authors: ""
