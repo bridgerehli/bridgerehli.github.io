@@ -1,6 +1,8 @@
 
 <div class="publications">
 
+---
+
 <!-- BOOKS -->
 <h3>Books</h3>
 <div class="bibliography">
@@ -23,6 +25,8 @@
 {% endfor %}
 </div>
 
+---
+
 <!-- ARTICLES -->
 <h3>Articles</h3>
 <div class="bibliography">
@@ -42,6 +46,8 @@
 {% endif %}
 {% endfor %}
 </div>
+
+---
 
 <!-- REVIEWS -->
 <h3>Reviews</h3>
