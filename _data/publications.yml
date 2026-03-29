@@ -43,6 +43,7 @@ main:
     conference: "Journal of the History of Philosophy"
     year: "2025"
     type: "article"
+    pdf: "EhliSkepticismIdeaofBody.pdf"
 
   - title: "Hume on Modal Projection"
     authors: ""
