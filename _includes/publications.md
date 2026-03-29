@@ -1,7 +1,7 @@
 
 <div class="publications">
 
----
+<hr>
 
 <!-- BOOKS -->
 <h3>Books</h3>
@@ -25,7 +25,7 @@
 {% endfor %}
 </div>
 
----
+<hr>
 
 <!-- ARTICLES -->
 <h3>Articles</h3>
@@ -47,7 +47,7 @@
 {% endfor %}
 </div>
 
----
+<hr>
 
 <!-- REVIEWS -->
 <h3>Reviews</h3>
