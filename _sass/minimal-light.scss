@@ -499,3 +499,14 @@ footer {
 }
 
 
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #f8f5f0 !important;
+    color: #333333 !important;
+  }
+
+  * {
+    background-color: transparent !important;
+    color: inherit !important;
+  }
+}
