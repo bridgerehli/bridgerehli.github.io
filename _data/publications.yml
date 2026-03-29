@@ -38,6 +38,7 @@ main:
     conference: "British Philosophy in the Long Eighteenth Century: Themes from Kenneth P. Winkler"
     year: "2026"
     type: "article"
+    pdf: "EhliSupposition.pdf"
 
   - title: "Skepticism and the Idea of Body in Hume"
     authors: ""
