@@ -603,3 +603,36 @@ footer {
   font-weight: normal !important;
 }
 
+/* Use Garamond consistently, including theme overrides. */
+html,
+body,
+.wrapper,
+header,
+section,
+footer,
+email,
+position,
+autocolor,
+education,
+papertitle,
+a,
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small,
+strong,
+em,
+button,
+input,
+select,
+textarea,
+code,
+pre,
+.bibref {
+  font-family: Garamond, "EB Garamond", "Adobe Garamond Pro", "Apple Garamond", Georgia, serif;
+}
