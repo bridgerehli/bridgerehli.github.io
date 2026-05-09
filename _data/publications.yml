@@ -32,6 +32,7 @@ main:
     conference: "Hume Studies"
     year: "2026"
     type: "article"
+    pdf: "EhliQuestionsforFalkenstein.pdf"
 
   - title: "Supposition and Realism in Hume"
     authors: ""
