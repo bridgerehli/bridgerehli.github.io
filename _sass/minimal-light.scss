@@ -534,3 +534,37 @@ hr {
   border-top: 1px solid #e0e0e0;
   margin: 2em 0;
 }
+
+/* Use Garamond consistently, including theme overrides. */
+html,
+body,
+.wrapper,
+header,
+section,
+footer,
+email,
+position,
+autocolor,
+education,
+papertitle,
+a,
+p,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+small,
+strong,
+em,
+button,
+input,
+select,
+textarea,
+code,
+pre,
+.bibref {
+  font-family: Garamond, "EB Garamond", "Adobe Garamond Pro", "Apple Garamond", Georgia, serif;
+}
